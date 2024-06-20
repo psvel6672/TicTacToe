@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h3>Tic Tac Toe</h3>
+            <div class="actBtns">
+                <button class="resetBtn">Reset</button>
+                <button class="UsrDtls">User Details</button>
+                <button class="startBtn">Start</button>
+            </div>
+            <div class="box">
+                <button id="1" class="btn"></button>
+                <button id="2" class="btn"></button>
+                <button id="3" class="btn"></button>
+                <button id="4" class="btn"></button>
+                <button id="5" class="btn"></button>
+                <button id="6" class="btn"></button>
+                <button id="7" class="btn"></button>
+                <button id="8" class="btn"></button>
+                <button id="9" class="btn"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="modal">
+        <div class="users">
+            <label for="">User for X </label>
+            <input type="text">
+            <label for="">User for O </label>
+            <input type="text">
+        </div>
+    </div> -->
+
+    <div id="myModal" class="modal">
+
+        <div class="modalBox">
+            <div class="modalTitle">
+                <span>User Details</span>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modalContent">
+                <label for="">User for X </label>
+                <input type="text" id="usrX">
+                <label for="">User for O </label>
+                <input type="text" id="usrO">
+
+                <div class="modalBtns">
+                    <button class="clrBtn">Reset</button>
+                    <button class="saveBtn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

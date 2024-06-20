@@ -1,0 +1,37 @@
+<div class="container">
+
+  <h4 class="title">{{title}}</h4>
+  <p class="cursts">Player {{GameStartsWith}} Starts '{{CurrentPlayer}}'</p>
+  <div class="mainBox">
+    <div class="smallBox" (click)="ClickBtn(1)" id="1"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(2)" id="2"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(3)" id="3"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(4)" id="4"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(5)" id="5"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(6)" id="6"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(7)" id="7"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(8)" id="8"><p></p></div>
+    <div class="smallBox" (click)="ClickBtn(9)" id="9"><p></p></div>
+  </div>
+
+  <p class="author">Powerd by Thamizhan PS</p>
+
+  <div class="modalPopUp" style="display: none;">
+
+    <div class="modalPage">
+
+      <p class="modalHeader">Alert</p>
+
+      <div class="modalContent">{{alertMsg}}</div>
+
+      <div class="modalFooter">
+
+        <button (click)="CloseModal()">Okay</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
